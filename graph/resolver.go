@@ -4,6 +4,10 @@ package graph
 //
 // It serves as dependency injection for your app, add any dependencies you require here.
 
+import (
+	"github.com/ApprenticeGC/gqlgen-todos/graph/model"
+)
+
 type Resolver struct{
 	todos []*model.Todo
 }
